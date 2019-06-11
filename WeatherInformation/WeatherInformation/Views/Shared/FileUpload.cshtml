@@ -1,0 +1,11 @@
+﻿<div>
+    <div>
+        <span class="fileUploader">
+            <label class="control-label">Upload a file</label>
+            <input class="btn" id="fileBrowse" type="button" value="Browse" onclick="$('#fileUpload').click();" />
+            <input class="hide" border:none;" type="file" id="fileUpload" accept="*.json;" onchange="home.UploadFile(this)"/>
+        </span>
+        @*<input class="btn" type="button" name="upload file" id="btnFileUpload" value="Upload file" />*@
+        <span class="progress _uploadProgress"></span>
+    </div>
+</div>
