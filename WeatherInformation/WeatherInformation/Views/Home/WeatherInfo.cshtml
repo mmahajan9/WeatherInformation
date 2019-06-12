@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "WeatherInfo";
+}
+
+@Scripts.Render("~/bundles/home")
+
+<h2>WeatherInfo</h2>
+
+<div>
+    @{
+        Html.RenderPartial("FileUpload");
+    }
+</div>
+
+<div>
+    @{
+        Html.RenderPartial("_WetherGrid");
+    }
+</div>
