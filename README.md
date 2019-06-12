@@ -24,4 +24,5 @@ How to run a project:
 -	Open project in Visual studio
 -	Make sure Weatherinformation project is set as default project and not test project.
 -	Press F5 key.
+- YOu can upload files from "json templates" folder from repository or you can create your own files.
 
